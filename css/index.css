@@ -45,9 +45,11 @@ li{
 
 .flexContainer {
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-around;
-  width: 100%;
+  justify-content: center;
+  width: 40%;
+  
   margin-bottom: 100px;
 }
 
