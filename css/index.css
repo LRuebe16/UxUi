@@ -1,7 +1,7 @@
 body{
   font-family: 'Didact Gothic', 'Open Sans', sans-serif;
-  background-image: url("images/About Me Background.png");
-  background-size: cover;
+  background-image: url("images/Skills_Background-image.png");
+  background-size: 100%;
 }
 
 
@@ -38,6 +38,11 @@ ul{
 li{
   padding-right: 30px;
 }
+
+
+
+
+
 
 .heroImg{
   height: 800px;
