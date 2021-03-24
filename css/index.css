@@ -113,16 +113,16 @@ li{
 #GDRNT{
   grid-area: GDRNT;
   background-color: chartreuse;
-  background-image: url(/Users/laurenruebe/Documents/GitHub/Ux_UI_HW_18/images/HP_GDRNT_Phones.png);
+  background-image: url(images/HP_GDRNT_Phones.png);
 }
 #CSA{
   grid-area: CSA;
-  background-image: url(/Users/laurenruebe/Documents/GitHub/Ux_UI_HW_18/images/HP_Astronaut.png);
+  background-image: url(...images/HP_Astronaut.png);
   background-color: chartreuse;
 }
 #TOTO{
   grid-area: TOTO;
-  background-image: url(/Users/laurenruebe/Documents/GitHub/Ux_UI_HW_18/images/HP_Dog1.jpg);
+  background-image: url(/images/HP_Dog1.jpg);
   background-color: chartreuse;
 }
 
