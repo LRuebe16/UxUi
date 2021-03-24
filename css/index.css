@@ -113,7 +113,7 @@ li{
 #GDRNT{
   grid-area: GDRNT;
   background-color: rgb(206, 206, 206);
-  background-image: url(/images/HP_GDRNT_Phones.png);
+  background-image: url(images/HP_GDRNT_Phones.png);
 }
 #CSA{
   grid-area: CSA;
