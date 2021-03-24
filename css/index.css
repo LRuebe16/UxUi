@@ -73,7 +73,7 @@ li{
 
 #workGrid{
   display: grid;
-  background-color: pink;
+  background-color: none;
   margin: 0px 5%;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
@@ -87,21 +87,21 @@ li{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
-  margin: 5px;
+  height: 500px;
+  margin: 20px;
   display: grid;
   align-content: end;
-  border-radius: 10px;
-  background-color: aqua;
+  border-radius: 15px;
 }
 
 .heading{
-  background-color: rgba(153, 137, 137, 0.7);
-  padding: 15px;
-  height: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-left: 50px;
+  padding-right: 50px;
   font-size: 18px;
-  align-content: end;
   text-align: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 
 }
 
@@ -112,18 +112,16 @@ li{
 
 #GDRNT{
   grid-area: GDRNT;
-  background-color: chartreuse;
-  background-image: url(images/HP_GDRNT_Phones.png);
+  background-color: rgb(206, 206, 206);
+  background-image: url(/Users/laurenruebe/Documents/GitHub/Ux_UI_HW_18/images/HP_GDRNT_Phones.png);
 }
 #CSA{
   grid-area: CSA;
-  background-image: url(...images/HP_Astronaut.png);
-  background-color: chartreuse;
+  background-image: url(/Users/laurenruebe/Documents/GitHub/Ux_UI_HW_18/images/HP_Astronaut.png);
 }
 #TOTO{
   grid-area: TOTO;
-  background-image: url(/images/HP_Dog1.jpg);
-  background-color: chartreuse;
+  background-image: url(/Users/laurenruebe/Documents/GitHub/Ux_UI_HW_18/images/HP_Dog1.jpg);
 }
 
 
@@ -144,6 +142,7 @@ h1{
 
 h3{
   font-size: 30px;
+  margin: 15px;
   font-weight: 200px;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: rgb(1, 59, 59);
@@ -171,11 +170,12 @@ button{
 }
 
 .button2{
+  display: inline-block;
   background-color: white;
   color: #2E7476;
   border: 3px solid #2E7476;
   padding: 5px 10px;
-  display: inline-block;
+  margin-bottom: 20px;
   border-radius: 10px;
   font-size: 20px;
   font-weight: 400;
