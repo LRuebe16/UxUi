@@ -71,6 +71,62 @@ li{
 
 
 
+#workGrid{
+  display: grid;
+  background-color: pink;
+  margin: 0px 5%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas: 
+  "GDRNT GDRNT"
+  "CSA TOTO"
+  ;
+}
+
+.categoryGridArea{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin: 5px;
+  display: grid;
+  align-content: end;
+  border-radius: 10px;
+  background-color: aqua;
+}
+
+.heading{
+  background-color: rgba(153, 137, 137, 0.7);
+  padding: 15px;
+  height: 50%;
+  font-size: 18px;
+  align-content: end;
+  text-align: center;
+
+}
+
+.subHeading{
+  text-align: center;
+  margin: 50px auto;
+}
+
+#GDRNT{
+  grid-area: GDRNT;
+  background-color: chartreuse;
+  background-image: url(/Users/laurenruebe/Documents/GitHub/Ux_UI_HW_18/images/HP_GDRNT_Phones.png);
+}
+#CSA{
+  grid-area: CSA;
+  background-image: url(/Users/laurenruebe/Documents/GitHub/Ux_UI_HW_18/images/HP_Astronaut.png);
+  background-color: chartreuse;
+}
+#TOTO{
+  grid-area: TOTO;
+  background-image: url(/Users/laurenruebe/Documents/GitHub/Ux_UI_HW_18/images/HP_Dog1.jpg);
+  background-color: chartreuse;
+}
+
+
 
 
 p{
@@ -83,6 +139,7 @@ h1{
   font-weight: 200px;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: rgb(1, 59, 59);
+  text-align: center;
 }
 
 h3{
@@ -110,8 +167,22 @@ button{
   font-size: 20px;
   font-weight: 800;
   font-family: 'Didact Gothic', 'Open Sans', sans-serif;
-  
+  cursor: pointer;
 }
+
+.button2{
+  background-color: white;
+  color: #2E7476;
+  border: 3px solid #2E7476;
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Didact Gothic', 'Open Sans', sans-serif;
+  cursor: pointer;
+}
+
 
 footer{
   display: inline-block;
