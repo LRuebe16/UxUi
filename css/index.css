@@ -1,7 +1,7 @@
 body{
   font-family: 'Didact Gothic', 'Open Sans', sans-serif;
-  background-image: url("../images/Skills_Background-image.png");
-  background-size: 100%;
+  /*background-image: url("../images/Skills_Background-image.png");
+  background-size: 100%;*/
 }
 p{
   font-size: 20px;
@@ -22,12 +22,7 @@ h3{
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: rgb(1, 59, 59);
 }
-h4{
-  font-size: 30px;
-  font-weight: 200px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  color: rgb(1, 59, 59);
-}
+
 button{
   background-color: white;
   color: #2E7476;
@@ -92,7 +87,6 @@ li{
 }
 .flexContainer {
   display: flex;
-  flex-wrap: nowrap;
   flex-direction: row;
   align-items: center;
   align-content: center;
@@ -108,14 +102,13 @@ li{
   padding-left: 30%;
 }
 .mySkills img{
-  max-width: 600px;
+  width: 100%;
   min-width: 400px;
 }
 
 /*My Work Page*/
 #workGrid{
   display: grid;
-  background-color: none;
   margin: 0px 5%;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
@@ -216,21 +209,21 @@ footer li{
 }
 
 /*Mobile Media Query*/
-@media only screen and (max-width: 600){
-  body {
-    background-color: lightblue;
-    background-image: none;
-  }
-  .flexContainer{
+@media only screen and (max-width: 600px) {
+  .flexContainer {
     flex-direction: column;
-    width: 100%;}
-  #workGrid{
+    width: 100%;
+  }
+  .mySkills img{
+    width: 100%;
+    }
+  #workGrid {
+    display: block;
     grid-template-columns: 1fr;
     grid-template-rows: 300px 300px 300px;
     grid-template-areas: 
     "GDRNT"
     "CSA"
-   "TOTO"
-    ;}
- 
+    "TOTO";
+  }
 }
