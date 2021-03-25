@@ -3,25 +3,72 @@ body{
   background-image: url("../images/Skills_Background-image.png");
   background-size: 100%;
 }
+p{
+  font-size: 20px;
+  color: #2E7476;
+  text-align: justify;
+}
+h1{
+  font-size: 40px;
+  font-weight: 200px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: rgb(1, 59, 59);
+  text-align: center;
+}
+h3{
+  font-size: 30px;
+  margin: 15px;
+  font-weight: 200px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: rgb(1, 59, 59);
+}
+h4{
+  font-size: 30px;
+  font-weight: 200px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: rgb(1, 59, 59);
+}
+button{
+  background-color: white;
+  color: #2E7476;
+  border: 3px solid #2E7476;
+  padding: 14px 34px;
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Didact Gothic', 'Open Sans', sans-serif;
+  cursor: pointer;
+}
+.button2{
+  display: inline-block;
+  background-color: white;
+  color: #2E7476;
+  border: 3px solid #2E7476;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Didact Gothic', 'Open Sans', sans-serif;
+  cursor: pointer;
+}
 
-
+/*Top Navigation*/
 .navigation{
   height: 75px;
   background-color: white;
-
 }
-
 .inline-block{
   display: inline-block;
   vertical-align: top;
 }
-
 .logo{
   width: 20%;
   padding: 1%;
   text-align: center;
 }
-
 nav{
   width: 73%;
   padding: 1%;
@@ -39,10 +86,10 @@ li{
   padding-right: 30px;
 }
 
+/*My Skills Page*/
 .mySkills{
   text-align: center;
 }
-
 .flexContainer {
   display: flex;
   flex-wrap: nowrap;
@@ -53,24 +100,19 @@ li{
   width: 100%;
   margin-bottom: 100px;
 }
-
-
 .flexContainer h3{
   text-align: left;
 }
-
 .flexContainer h4 {
   text-align: left;
   padding-left: 30%;
 }
-
 .mySkills img{
   max-width: 600px;
   min-width: 400px;
 }
 
-
-
+/*My Work Page*/
 #workGrid{
   display: grid;
   background-color: none;
@@ -82,7 +124,6 @@ li{
   "CSA TOTO"
   ;
 }
-
 .categoryGridArea{
   background-position: center;
   background-size: cover;
@@ -93,7 +134,6 @@ li{
   align-content: end;
   border-radius: 15px;
 }
-
 .heading{
   background-color: rgba(255, 255, 255, 0.8);
   padding-left: 50px;
@@ -102,14 +142,11 @@ li{
   text-align: center;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-
 }
-
 .subHeading{
   text-align: center;
   margin: 50px auto;
 }
-
 #GDRNT{
   grid-area: GDRNT;
   background-color: rgb(206, 206, 206);
@@ -126,65 +163,6 @@ li{
   background-image: url("../images/HP_Dog1.jpg");
 }
 
-
-
-
-p{
-  font-size: 20px;
-  color: #2E7476;
-  text-align: justify;
-}
-h1{
-  font-size: 40px;
-  font-weight: 200px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  color: rgb(1, 59, 59);
-  text-align: center;
-}
-
-h3{
-  font-size: 30px;
-  margin: 15px;
-  font-weight: 200px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  color: rgb(1, 59, 59);
-}
-h4{
-  font-size: 30px;
-  font-weight: 200px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  color: rgb(1, 59, 59);
-}
-
-
-button{
-  background-color: white;
-  color: #2E7476;
-  border: 3px solid #2E7476;
-  padding: 14px 34px;
-  display: inline-block;
-  border-radius: 10px;
-  margin-top: 20px;
-  font-size: 20px;
-  font-weight: 800;
-  font-family: 'Didact Gothic', 'Open Sans', sans-serif;
-  cursor: pointer;
-}
-
-.button2{
-  display: inline-block;
-  background-color: white;
-  color: #2E7476;
-  border: 3px solid #2E7476;
-  padding: 5px 10px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  font-size: 20px;
-  font-weight: 400;
-  font-family: 'Didact Gothic', 'Open Sans', sans-serif;
-  cursor: pointer;
-}
-
 /*FOOTER*/
 footer{
   display: inline-block;
@@ -196,32 +174,25 @@ footer{
   font-family: 'Didact Gothic', 'Open Sans', sans-serif;
   height: 80px;
 }
-
 footer ul{
   display: inline-block;
   width: -webkit-fill-available;
 }
-
 footer li{
   display: inline;
   padding: 10px;
   color: #E8C9AD;
   font-size: 15pt;
-
 }
-
 .floatleft {
   float:left;
   line-height: 50px;
-  
 }
 .floatright {
   float:right;
   line-height: 50px;
   padding-right: 40px;
-
 }
-
 
 /*social media icons*/
 .fa {
@@ -230,20 +201,36 @@ footer li{
   width: 20px;
   text-align: center;
   text-decoration: none;
-
   border-radius: 50%;
 }
-
 .fa:hover {
   opacity: 0.8;
 }
-
 .fa-facebook {
   background: #E8C9AD;
   color: #1A2F30;
 }
-
 .fa-linkedin {
   background: #E8C9AD;
   color: #1A2F30;
+}
+
+/*Mobile Media Query*/
+@media only screen and (max-width: 600){
+  body {
+    background-color: lightblue;
+    background-image: none;
+  }
+  .flexContainer{
+    flex-direction: column;
+    width: 100%;}
+  #workGrid{
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-areas: 
+    "GDRNT"
+    "CSA"
+   "TOTO"
+    ;}
+ 
 }
