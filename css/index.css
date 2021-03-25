@@ -1,7 +1,8 @@
 body{
   font-family: 'Didact Gothic', 'Open Sans', sans-serif;
-background-image: url("../images/Skills_Background-image.png");
+  background-image: url("../images/Skills_Background-image.png");
   background-size: 100%;
+  padding-top: 75px;
 }
 p{
   font-size: 20px;
@@ -55,7 +56,10 @@ button{
   display: inline-block;
   height: 70px;
   width: 100%;
-  background-color: rgba(218, 218, 218, 0.904);
+  color: #2E7476;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
 }
 .inline-block{
   display: inline-block;
@@ -69,8 +73,8 @@ nav{
   float: right;
   width: 75.7%;
   text-align: right;
-  font-weight: 700;
   font-family: 'Didact Gothic', 'Open Sans', sans-serif;
+  padding-right: 20px;
 }
 nav ul{
   width: 100%;
@@ -80,8 +84,9 @@ nav ul{
   color: #2E7476;
 }
 nav li{
-  padding-right: 20px;
+  padding-right: 30px;
   padding-top: 24px;
+  font-weight: 200;
 }
 
 /*My Skills Page*/
