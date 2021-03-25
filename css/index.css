@@ -227,7 +227,7 @@ footer li{
     "TOTO";
   }
 }
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .flexContainer {
     flex-direction: column;
     width: 100%;
