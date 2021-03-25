@@ -1,7 +1,7 @@
 body{
   font-family: 'Didact Gothic', 'Open Sans', sans-serif;
-  /*background-image: url("../images/Skills_Background-image.png");
-  background-size: 100%;*/
+background-image: url("../images/Skills_Background-image.png");
+  background-size: 100%;
 }
 p{
   font-size: 20px;
@@ -53,7 +53,7 @@ button{
 /*Top Navigation*/
 .navigation{
   height: 75px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.904);
 }
 .inline-block{
   display: inline-block;
@@ -153,7 +153,7 @@ li{
 #TOTO{
   grid-area: TOTO;
   background-color: rgb(206, 206, 206);
-  background-image: url("../images/HP_Dog1.jpg");
+  background-image: url("../images/HP_Dog2.jpg");
 }
 
 /*FOOTER*/
@@ -208,8 +208,26 @@ footer li{
   color: #1A2F30;
 }
 
-/*Mobile Media Query*/
-@media only screen and (max-width: 550px) {
+/*Media Query*/
+@media only screen and (max-width: 1000px) {
+  .flexContainer {
+    flex-direction: column;
+    width: 100%;
+  }
+  .mySkills img{
+    width: 100%;
+    }
+  #workGrid {
+    display: block;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-areas: 
+    "GDRNT"
+    "CSA"
+    "TOTO";
+  }
+}
+@media only screen and (max-width: 600px) {
   .flexContainer {
     flex-direction: column;
     width: 100%;
