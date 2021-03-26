@@ -2,6 +2,7 @@ body{
   font-family: 'Didact Gothic', 'Open Sans', sans-serif;
   background-image: url("../images/Skills_Background-image.png");
   background-size: 100%;
+  background-repeat: repeat-y;
   padding-top: 80px;
   margin: 0px;
 }
@@ -23,6 +24,7 @@ h3{
   font-weight: 200px;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: rgb(1, 59, 59);
+  text-align: center;
 }
 
 button{
@@ -99,7 +101,6 @@ header .floatright {
   width: 20%;
   padding: 1%;
   text-align: center;
-  background-color: lightseagreen;
 }
 
 /*My Skills Page*/
@@ -120,11 +121,10 @@ header .floatright {
 }
 .flexContainer h4 {
   text-align: left;
-  padding-left: 30%;
 }
 .mySkills img{
   width: 100%;
-  min-width: 400px;
+  min-width: 350px;
 }
 
 /*My Work Page*/
@@ -251,14 +251,15 @@ footer li {
 @media only screen and (max-width: 600px) {
   .flexContainer {
     flex-direction: column;
-    padding-left: 20px;
     width: 100%;
+    background-repeat: repeat-y;
   }
   .mySkills{
     width: 100%;
+    margin: 0;
   }
   .mySkills img{
-    width: 100%;
+    width: 90%;
     }
   #workGrid {
     display: block;
@@ -282,6 +283,9 @@ footer li {
     text-align: center;
     justify-content: center;
   }
+  #fixedHeader{
+    width: 100%;
+  }
   header .floatright {
     display: block;
     float: right;
@@ -291,13 +295,16 @@ footer li {
   header .floatleft {
      float: left;
   }
+  footer{
+    width: 100%;
+  }
   header {
     height: 110px;
     width: 100%;
   }
   header li{
-    padding-right: 40px;
-    padding-left: 0px;
+    padding-right: 0px;
+    padding-left: 30px;
   }
   body{
     padding-top: 120px;
