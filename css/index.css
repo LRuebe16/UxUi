@@ -251,13 +251,18 @@ footer li {
 @media only screen and (max-width: 600px) {
   .flexContainer {
     flex-direction: column;
+    padding-left: 20px;
+    width: 100%;
+  }
+  .mySkills{
+    width: 100%;
   }
   .mySkills img{
-    width: 80%;
-    min-width: 400px;
+    width: 100%;
     }
   #workGrid {
     display: block;
+    margin: 0%;
     grid-template-columns: 1fr;
     grid-template-rows: 300px 300px 300px;
     grid-template-areas: 
@@ -281,13 +286,18 @@ footer li {
     display: block;
     float: right;
     text-align: right;
-    width: 60%;
+    width: 65%;
   }
   header .floatleft {
      float: left;
   }
   header {
     height: 110px;
+    width: 100%;
+  }
+  header li{
+    padding-right: 40px;
+    padding-left: 0px;
   }
   body{
     padding-top: 120px;
