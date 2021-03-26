@@ -76,6 +76,7 @@ header ul{
 header li{
   display: inline-block;
   padding-right:15px;
+  padding-left: 15px;
   padding-top: 10px;
   color: #2E7476;
   line-height: 30px;
@@ -254,6 +255,7 @@ footer li {
   }
   .mySkills img{
     width: 100%;
+    min-width: 400px;
     }
   #workGrid {
     display: block;
