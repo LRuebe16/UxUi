@@ -2,7 +2,8 @@ body{
   font-family: 'Didact Gothic', 'Open Sans', sans-serif;
   background-image: url("../images/Skills_Background-image.png");
   background-size: 100%;
-  padding-top: 75px;
+  padding-top: 80px;
+  margin: 0px;
 }
 p{
   font-size: 20px;
@@ -52,41 +53,52 @@ button{
 }
 
 /*Top Navigation*/
-.navigation{
+#fixedHeader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+header {
   display: inline-block;
-  height: 70px;
   width: 100%;
-  color: #2E7476;
-  background-color: rgba(255, 255, 255, 0.9);
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.75);
+  font-family: Arial, Helvetica, sans-serif;
 }
-.inline-block{
+header ul{
   display: inline-block;
+  width: -webkit-fill-available;
+  vertical-align: middle;
+  padding-right: 40px;
+  margin: none;
 }
+header li{
+  display: inline-block;
+  padding-right:15px;
+  padding-top: 10px;
+  color: #2E7476;
+  line-height: 30px;
+  font-size: 15pt;  
+}
+header .floatleft {
+  float:left;
+  padding-left: 30px;
+  padding-top: 12px;
+}
+header .floatright {
+  float:right;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
 .logo{
+  display: inline-block;
   width: 20%;
   padding: 1%;
   text-align: center;
-}
-nav{
-  float: right;
-  width: 75.7%;
-  text-align: right;
-  font-family: 'Didact Gothic', 'Open Sans', sans-serif;
-  padding-right: 20px;
-}
-nav ul{
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #2E7476;
-}
-nav li{
-  padding-right: 30px;
-  padding-top: 24px;
-  font-weight: 200;
+  background-color: lightseagreen;
 }
 
 /*My Skills Page*/
@@ -165,22 +177,23 @@ nav li{
 }
 
 /*FOOTER*/
-footer{
-  display: inline-block;
+footer {
+  display: block;
   width: 100%;
   background-color: #2E7476;
   color: #E8C9AD;
-  margin-top: 100px;
+  margin-top: 50px;
   font-weight: 500;
   font-family: 'Didact Gothic', 'Open Sans', sans-serif;
+
 }
-footer ul{
+footer ul {
   display: inline-block;
   width: -webkit-fill-available;
   padding-right: 40px;
 }
-footer li{
-  display: inline;
+footer li {
+  display: inline-block;
   padding: 10px;
   color: #E8C9AD;
   font-size: 15pt;
@@ -192,7 +205,6 @@ footer li{
 .floatright {
   float:right;
   line-height: 50px;
-
 }
 
 /*social media icons*/
@@ -262,6 +274,21 @@ footer li{
     float: none;
     line-height: 50px;
     text-align: center;
+    justify-content: center;
   }
-
+  header .floatright {
+    display: block;
+    float: right;
+    text-align: right;
+    width: 60%;
+  }
+  header .floatleft {
+     float: left;
+  }
+  header {
+    height: 110px;
+  }
+  body{
+    padding-top: 120px;
+  }
 }
