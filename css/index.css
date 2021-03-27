@@ -3,7 +3,7 @@ body{
   background-image: url("../images/Skills_Background-image.png");
   background-size: 100%;
   background-repeat: repeat-y;
-  padding-top: 80px;
+  padding-top: 110px;
   margin: 0px;
 }
 p{
@@ -327,6 +327,6 @@ footer li {
     padding-left: 30px;
   }
   body{
-    padding-top: 120px;
+    padding-top: 20px;
   }
 }
