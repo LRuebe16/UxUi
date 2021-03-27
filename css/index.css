@@ -268,7 +268,6 @@ footer li {
   .content{
     width: 100%;
     margin: 0;
-    padding-top: 100px;
   }
   .flexContainer {
     flex-direction: column;
@@ -328,6 +327,6 @@ footer li {
     padding-left: 30px;
   }
   body{
-    padding-top: 30px;
+    padding-top: 130px;
   }
 }
